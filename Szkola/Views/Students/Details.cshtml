@@ -25,7 +25,35 @@
         <dd>
             @Html.DisplayFor(model => model.Nazwiskostudent)
         </dd>
-
+        <dt>
+            @Html.DisplayNameFor(model =>model.Nauczyciale)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nauczyciale)
+        </dd>
+        <dt>
+            <dd>
+                <table class="table">
+                    <tr>
+                        <th>
+                            Nazwa Kursu
+                        </th>
+                        <th>Ocena</th>
+                    </tr>
+                    @foreach (var item in Model.Nauczyciale)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Kurs.Nazwa)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Ocena)
+                            </td>
+                        </tr>
+                    }
+                </table>
+            </dd>
+        </dt>
     </dl>
 </div>
 <p>

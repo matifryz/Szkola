@@ -26,9 +26,30 @@
             @Html.DisplayFor(model => model.Nazwiskostudent)
         </dd>
 
-    </dl>
-</div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.IdStudent }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+        <dd>
+            <table class="table">
+                <tr>
+                    <th>nazwa kursu</th>
+                    <th>ocena</th>
+                </tr>
+                @foreach (var item in Model.Nauczyciale)                
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Kurs.Nazwa)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Ocena)
+                            </td>
+                        </tr>
+                    }
+
+                </table>
+            </dd>
+
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.IdStudent }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>

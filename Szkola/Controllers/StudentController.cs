@@ -47,15 +47,24 @@ namespace Szkola.Controllers
         // Aby uzyskać więcej szczegółów, zobacz https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "IdStudent,ImieStudent,Nazwiskostudent")] Student student)
+        public ActionResult Create([Bind(Include = "ImieStudent,Nazwiskostudent")] Student student)
         {
-            if (ModelState.IsValid)
+            try
             {
-                db.Studenci.Add(student);
-                db.SaveChanges();
-                return RedirectToAction("Index");
+                if (ModelState.IsValid)
+                {
+                    db.Studenci.Add(student);
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
+                }
             }
-
+            catch
+            
+                (DataException) 
+                {
+                    ModelState.AddModelError("", "Nie można zrobić zmian");
+                }
+            
             return View(student);
         }
 

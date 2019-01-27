@@ -21,7 +21,7 @@ namespace Szkola.DBAcess
 
             var kursy = new List<Kurs>
             {
-                new Kurs{IdKurs = 1, Nazwa="Matematyka",LStudentów=11},
+                new Kurs{IdKurs=1, Nazwa="Matematyka",LStudentów=11},
                 new Kurs{IdKurs=2,Nazwa="Polski",LStudentów=22}
             };
             kursy.ForEach(s => context.Kursy.Add(s));
@@ -29,7 +29,7 @@ namespace Szkola.DBAcess
             var nauczyciele = new List<Nauczyciel>
             {
                 new Nauczyciel{IdKurs=1, IdStudent =1, Ocena=Ocena.cztery},
-                new Nauczyciel{IdKurs=2,IdStudent=2,Ocena=Ocena.trzy}
+                new Nauczyciel{IdKurs=2,IdStudent=2, Ocena=Ocena.trzy}
             };
             nauczyciele.ForEach(s => context.Nauczyciele.Add(s));
             context.SaveChanges();

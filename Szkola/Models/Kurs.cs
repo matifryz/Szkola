@@ -10,7 +10,7 @@ namespace Szkola.Models
         [Required]
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public long IdKurs { get; set; }
-        public string   Nazwa  { get; set; }
+        public string Nazwa { get; set; }
         public int LStudentów { get; set; }
         public  virtual ICollection<Nauczyciel> Nauczyciele { get; set; }
 
