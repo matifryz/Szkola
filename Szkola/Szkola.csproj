@@ -133,6 +133,8 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\KursController.cs" />
+    <Compile Include="Controllers\NauczycielController.cs" />
     <Compile Include="Controllers\StudentController.cs" />
     <Compile Include="DBAcess\SzkolaContext.cs" />
     <Compile Include="DBAcess\SzkolaInitializer.cs" />
@@ -192,6 +194,16 @@
     <Content Include="Views\Student\Details.cshtml" />
     <Content Include="Views\Student\Edit.cshtml" />
     <Content Include="Views\Student\Index.cshtml" />
+    <Content Include="Views\Nauczyciel\Create.cshtml" />
+    <Content Include="Views\Nauczyciel\Delete.cshtml" />
+    <Content Include="Views\Nauczyciel\Details.cshtml" />
+    <Content Include="Views\Nauczyciel\Edit.cshtml" />
+    <Content Include="Views\Nauczyciel\Index.cshtml" />
+    <Content Include="Views\Kurs\Create.cshtml" />
+    <Content Include="Views\Kurs\Delete.cshtml" />
+    <Content Include="Views\Kurs\Details.cshtml" />
+    <Content Include="Views\Kurs\Edit.cshtml" />
+    <Content Include="Views\Kurs\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
