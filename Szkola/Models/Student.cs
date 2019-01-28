@@ -11,11 +11,26 @@ namespace Szkola.Models
     {
         [Key]
         [Required]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int IdStudent{ get; set; }
-        
+        [Required]
+        [StringLength(10, MinimumLength =1)]
+        [Display(Name ="Imie")]
         public string ImieStudent  { get; set; }
+        [Required]
+        [StringLength(10, ErrorMessage ="Nie więcej niż 10 liter")]
+        [Column("Nazwisko")]
+        [Display(Name ="Nazwisko")]
         public string Nazwiskostudent { get; set; }
         
-        public virtual ICollection<Nauczyciel> Nauczyciale{ get; set; }
+        [Display(Name ="Imie i nazawisko")]
+        public string Nazwa
+        {
+            get
+            {
+                return ImieStudent + " " + Nazwiskostudent;
+            }
+        }
+        public virtual ICollection<OcenaKursu> OcenaKursu{ get; set; }
     }
 }

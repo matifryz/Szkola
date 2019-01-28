@@ -26,12 +26,12 @@ namespace Szkola.DBAcess
             };
             kursy.ForEach(s => context.Kursy.Add(s));
             context.SaveChanges();
-            var nauczyciele = new List<Nauczyciel>
+            var nauczyciele = new List<OcenaKursu>
             {
-                new Nauczyciel{IdKurs=1, IdStudent =1, Ocena=Ocena.cztery},
-                new Nauczyciel{IdKurs=2,IdStudent=2, Ocena=Ocena.trzy}
+                new OcenaKursu{IdKurs=1, IdStudent =1, Ocena=Ocena.cztery},
+                new OcenaKursu{IdKurs=2,IdStudent=2, Ocena=Ocena.trzy}
             };
-            nauczyciele.ForEach(s => context.Nauczyciele.Add(s));
+            nauczyciele.ForEach(s => context.ocenaKursu.Add(s));
             context.SaveChanges();
         }
     }

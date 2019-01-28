@@ -69,18 +69,30 @@ namespace Szkola.Controllers
         }
 
         // GET: Student/Edit/5
+        [HttpPost, ActionName("Edit")]
+        [ValidateAntiForgeryToken]
         public ActionResult Edit(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Student student = db.Studenci.Find(id);
-            if (student == null)
+            var studentToUpdate = db.Studenci.Find(id);
+            if (TryUpdateModel(studentToUpdate,"",
+                new string[] { "ImieStudent", "Nazwiskostudent" }))
             {
-                return HttpNotFound();
+                try
+                {
+                    db.SaveChanges();
+
+                    return RedirectToAction("Index");
+                }
+                catch (DataException)
+                {
+                    ModelState.AddModelError("", "Nie można dodać zmian");
+                }
             }
-            return View(student);
+            return View(studentToUpdate);
         }
 
         // POST: Student/Edit/5

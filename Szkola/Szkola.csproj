@@ -134,7 +134,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\KursController.cs" />
-    <Compile Include="Controllers\NauczycielController.cs" />
+    <Compile Include="Controllers\OcenaKursuController.cs" />
     <Compile Include="Controllers\StudentController.cs" />
     <Compile Include="DBAcess\SzkolaContext.cs" />
     <Compile Include="DBAcess\SzkolaInitializer.cs" />
@@ -142,7 +142,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Kurs.cs" />
-    <Compile Include="Models\Nauczyciel.cs" />
+    <Compile Include="Models\Ocena.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -204,6 +204,11 @@
     <Content Include="Views\Kurs\Details.cshtml" />
     <Content Include="Views\Kurs\Edit.cshtml" />
     <Content Include="Views\Kurs\Index.cshtml" />
+    <Content Include="Views\OcenaKursu\Create.cshtml" />
+    <Content Include="Views\OcenaKursu\Delete.cshtml" />
+    <Content Include="Views\OcenaKursu\Details.cshtml" />
+    <Content Include="Views\OcenaKursu\Edit.cshtml" />
+    <Content Include="Views\OcenaKursu\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

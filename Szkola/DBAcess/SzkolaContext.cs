@@ -16,7 +16,7 @@ namespace Szkola.DBAcess
         }
         public DbSet<Student> Studenci { get; set; }
         public DbSet<Kurs> Kursy { get; set; }
-        public DbSet<Nauczyciel> Nauczyciele { get; set; }
+        public DbSet<OcenaKursu> ocenaKursu { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingEntitySetNameConvention>();
