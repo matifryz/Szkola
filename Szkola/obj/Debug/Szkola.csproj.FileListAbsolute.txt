@@ -88,3 +88,13 @@ C:\Users\Mateusz\source\repos\Szkola\Szkola\obj\Debug\Szkola.csproj.CoreCompileI
 C:\Users\Mateusz\source\repos\Szkola\Szkola\obj\Debug\Szkola.csproj.CopyComplete
 C:\Users\Mateusz\source\repos\Szkola\Szkola\obj\Debug\Szkola.dll
 C:\Users\Mateusz\source\repos\Szkola\Szkola\obj\Debug\Szkola.pdb
+C:\Users\Mateusz\source\repos\Szkola\Szkola\obj\Debug\Szkola.csprojAssemblyReference.cache
+C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\AutoMapper.dll
+C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\System.ValueTuple.dll
+C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\AutoMapper.pdb
+C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\AutoMapper.xml
+C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\System.ValueTuple.xml
