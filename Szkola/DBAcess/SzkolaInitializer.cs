@@ -31,7 +31,7 @@ namespace Szkola.DBAcess
                 new OcenaKursu{IdKurs=1, IdStudent =1, Ocena=Ocena.cztery},
                 new OcenaKursu{IdKurs=2,IdStudent=2, Ocena=Ocena.trzy}
             };
-            nauczyciele.ForEach(s => context.ocenaKursu.Add(s));
+            nauczyciele.ForEach(s => context.OcenaKursu.Add(s));
             context.SaveChanges();
         }
     }
