@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 using NUnit.Framework; 
 using Szkola.Controllers;
+using Szkola.Models;
 
 namespace Aplikacja1.Tests.Controllers
 {
@@ -50,5 +51,21 @@ namespace Aplikacja1.Tests.Controllers
             // Assert
             Assert.IsNotNull(result);
         }
+
+
+        [Test]
+        public void IndexKursController()
+        {
+            //Arrange
+            KursController controller = new KursController();
+            //Act
+            ViewResult result = controller.Index() as ViewResult;
+
+            Assert.IsNotNull(result);
+            Assert.AreEqual(string.Empty, result.Model);
+            
+
+        }
+
     }
 }
