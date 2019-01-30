@@ -1,3 +1,5 @@
+C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\System.Web.WebPages.dll
+C:\Users\Mateusz\source\repos\Szkola\Szkola\obj\Debug\Szkola.csproj.CoreCompileInputs.cache
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\Szkola.dll.config
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\Szkola.dll
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\Szkola.pdb
@@ -162,7 +164,6 @@ C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\System.Xml.XPath.dll
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\System.Xml.XPath.XDocument.dll
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\Antlr3.Runtime.dll
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\AutoMapper.dll
-C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\Castle.Core.dll
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\EntityFramework.dll
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\EntityFramework.SqlServer.dll
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\EntityFramework.SqlServerCompact.dll
@@ -179,13 +180,10 @@ C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\Microsoft.Owin.Security.dll
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\Microsoft.Owin.Security.OAuth.dll
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\Microsoft.QualityTools.Testing.Fakes.dll
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\Moq.dll
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\Newtonsoft.Json.dll
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\Owin.dll
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\System.Data.SqlServerCe.dll
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\System.Threading.Tasks.Extensions.dll
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\System.ValueTuple.dll
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\System.Web.Cors.dll
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\System.Web.Helpers.dll
@@ -193,13 +191,11 @@ C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\System.Web.Mvc.dll
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\System.Web.Optimization.dll
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\System.Web.Razor.dll
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\System.Web.WebPages.Deployment.dll
-C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\System.Web.WebPages.dll
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\System.Web.WebPages.Razor.dll
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\WebActivatorEx.dll
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\WebGrease.dll
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\AutoMapper.pdb
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\AutoMapper.xml
-C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\Castle.Core.xml
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\EntityFramework.xml
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\EntityFramework.SqlServer.xml
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\EntityFramework.SqlServerCompact.xml
@@ -212,10 +208,6 @@ C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\Microsoft.Owin.Host.SystemWeb.xm
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\Microsoft.Owin.Security.xml
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\Microsoft.Owin.Security.Cookies.xml
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\Moq.pdb
-C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\Moq.xml
-C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\System.Threading.Tasks.Extensions.xml
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\System.ValueTuple.xml
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\System.Web.Helpers.xml
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\System.Web.Mvc.xml
@@ -237,8 +229,6 @@ C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\pl\System.Web.WebPages.resources
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\pl\System.Web.WebPages.Deployment.resources.dll
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\pl\System.Web.WebPages.Razor.resources.dll
 C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\pl\System.Web.Optimization.resources.dll
-C:\Users\Mateusz\source\repos\Szkola\Szkola\obj\Debug\Szkola.csproj.CoreCompileInputs.cache
 C:\Users\Mateusz\source\repos\Szkola\Szkola\obj\Debug\Szkola.csproj.CopyComplete
 C:\Users\Mateusz\source\repos\Szkola\Szkola\obj\Debug\Szkola.dll
 C:\Users\Mateusz\source\repos\Szkola\Szkola\obj\Debug\Szkola.pdb
-C:\Users\Mateusz\source\repos\Szkola\Szkola\obj\Debug\Szkola.csprojAssemblyReference.cache
