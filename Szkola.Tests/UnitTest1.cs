@@ -2,11 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Web;
+using static System.Data.DataSet;
 using System.Web.Mvc;
-
+using Moq;
 using NUnit.Framework; 
 using Szkola.Controllers;
 using Szkola.Models;
+//using Microsoft.VisualStudio.TestTools.UnitTesting;
+
 
 namespace Aplikacja1.Tests.Controllers
 {
@@ -54,18 +58,27 @@ namespace Aplikacja1.Tests.Controllers
 
 
         [Test]
-        public void IndexKursController()
+        public void IndexKursController_Index_Equal()
         {
             //Arrange
             KursController controller = new KursController();
             //Act
             ViewResult result = controller.Index() as ViewResult;
 
-            Assert.IsNotNull(result);
-            Assert.AreEqual(string.Empty, result.Model);
-            
+
+            Assert.AreEqual("Index", result.View);
 
         }
+        [Test]
+        public void DetaleKusu() 
+        {
+            HomeController kursController = new HomeController();
+            var wynik = kursController.User as ViewResult;
+            Assert.AreEqual("Details", wynik.ViewName);
+        }
+        
+
 
     }
+
 }
