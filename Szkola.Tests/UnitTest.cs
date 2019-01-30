@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Web.Mvc;
 
-using NUnit.Framework; 
+ 
 using Szkola.Controllers;
 using Szkola.Models;
 
@@ -14,7 +14,7 @@ namespace Aplikacja1.Tests.Controllers
     public class HomeControllerTest
     {
         [Test]
-        public void TestIndexIsNotNull()
+        public void TestHomeController_IsNotNull ()
         {
             // Arrange
             HomeController controller = new HomeController();
@@ -27,7 +27,7 @@ namespace Aplikacja1.Tests.Controllers
         }
 
         [Test]
-        public void TestAboutEqual()
+        public void TestHomeController_Equal()
         {
             // Arrange
             HomeController controller = new HomeController();
@@ -40,7 +40,7 @@ namespace Aplikacja1.Tests.Controllers
         }
 
         [Test]
-        public void TestContactNotNull()
+        public void Contact()
         {
             // Arrange
             HomeController controller = new HomeController();
@@ -51,14 +51,21 @@ namespace Aplikacja1.Tests.Controllers
             // Assert
             Assert.IsNotNull(result);
         }
-        [Test]
-        public void TestContactEqual()
-        {
-            HomeController controller = new HomeController();
 
-            ViewResult result = controller.Contact() as ViewResult;
-            Assert.AreEqual("Your contact page.", result.ViewBag.Message);
+
+        [Test]
+        public void TestKursController_IsNotNull()
+        {
+            //Arrange
+            KursController controller = new KursController();
+            //Act
+            ViewResult result = controller.Index() as ViewResult;
+            Assert.IsNotNull(result);
+            Assert.AreEqual(string.Empty, result.Model);
+            
+
         }
-       
+        
+        
     }
 }

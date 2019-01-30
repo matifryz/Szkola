@@ -13,11 +13,11 @@ namespace Szkola.Models
         [Required]
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int IdStudent{ get; set; }
-        [Required]
+        
         [StringLength(10, MinimumLength =1)]
         [Display(Name ="Imie")]
         public string ImieStudent  { get; set; }
-        [Required]
+        
         [StringLength(10, ErrorMessage ="Nie więcej niż 10 liter")]
         [Column("Nazwisko")]
         [Display(Name ="Nazwisko")]

@@ -232,3 +232,4 @@ C:\Users\Mateusz\source\repos\Szkola\Szkola\bin\pl\System.Web.Optimization.resou
 C:\Users\Mateusz\source\repos\Szkola\Szkola\obj\Debug\Szkola.csproj.CopyComplete
 C:\Users\Mateusz\source\repos\Szkola\Szkola\obj\Debug\Szkola.dll
 C:\Users\Mateusz\source\repos\Szkola\Szkola\obj\Debug\Szkola.pdb
+C:\Users\Mateusz\source\repos\Szkola\Szkola\obj\Debug\Szkola.csprojAssemblyReference.cache

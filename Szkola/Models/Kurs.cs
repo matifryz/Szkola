@@ -8,7 +8,7 @@ namespace Szkola.Models
     {
         [Key]
         [Required]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long IdKurs { get; set; }
         [Required]
         [Display(Name ="Nazwa kursu")]
